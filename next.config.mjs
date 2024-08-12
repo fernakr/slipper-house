@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/out',
+    basePath: '/slipper-house',
     output: 'export',
     images: {
         unoptimized: true,
