@@ -415,65 +415,108 @@ export default function Home() {
   return (
     <main className="text-center p-8 flex items-center justify-center">
       <div className=" max-w-prose">
-      <h1>slipper assembly presents<br />slipper house</h1>
-      <h2>Artists</h2>
-    
-      <ul>
-        {artists.map((artist, index) => (
-          <li key={ index }>
-            <a href={`#${artist.name} `}>{artist.name}</a>
+        <h1>slipper assembly presents<br />slipper house</h1>
+        <hr />
+        <ul class="text-left">
+          <li>
+            <a href="#program">program</a>
+            <ul>
+              <li>
+                <a href="#slipper-house">about slipper house</a>
+              </li>
+              <li>
+                <a href="#artists">artists</a>
+              </li>
+              <li>
+                <a href="#slipper-house-team">slipper house team</a>
+              </li>
+            </ul>
           </li>
-        ))
+          <li>
+            <a href="#about">about slipper assembly</a>
+          </li>
+        </ul>
+        <hr />
+        <h2 id="program">program</h2>
+        <h3 id="slipper-house">about slipper house</h3>
+        <ul class="no-list">
+          <li>the goal of slipper house is to provide an <strong>accessible, inclusive, welcoming</strong> space for slipper assembly members to share their art</li>
+          <li><strong>non-traditional</strong> gallery experience – a space to uplift the slipper community</li>
+          </ul>
+        <h3>theme</h3>  
+        <strong>Living Room</strong>                    
+        <ul class="no-list text-sm">
+          <li>House / Home</li>
+          <li>Belonging / Community</li>
+          <li>Coziness / Comfort</li>
+        </ul>                              
 
-        }
-      </ul>      
-      <hr/>
-      { artists.map((artist, index) => {
-        const pieces = [];
-        if (artist.piece1_title) {
-          pieces.push({
-            title: artist.piece1_title,
-            medium: artist.piece1_medium,
-            description: artist.piece1_description,
-            location: artist.piece1_location
-          });
-        }
-        if (artist.piece2_title) {
-          pieces.push({
-            title: artist.piece2_title,
-            medium: artist.piece2_medium,
-            description: artist.piece2_description,
-            location: artist.piece2_location
-          });
-        }
-        if (artist.piece3_title) {
-          pieces.push({
-            title: artist.piece3_title,
-            medium: artist.piece3_medium,
-            description: artist.piece3_description,
-            location: artist.piece3_location
-          });
-        }
-        return (
-          <div key={ index }>
-            <h3 id={artist.name}>{artist.name}</h3>
-            <p className="font-bold">{artist.contact}</p>
-            <p>{artist.theme}</p>
-            { pieces.map((piece, index) => {
-              return (
-                <div key={ index } className="mt-3">
-                  <h4>{piece.title}</h4>
-                  <p>{piece.medium}</p>
-                  <p className="italic">{piece.location}</p>
-                  { piece.description && <p>{piece.description}</p>}                
-                </div>
-              );
-            })}
-            <hr />
-          </div>
-          ); 
-      })}
+        <h3 id="artists">artists</h3>
+      
+        <ul class="no-list">
+          {artists.map((artist, index) => (
+            <li key={ index }>
+              <a href={`#${artist.name} `}>{artist.name}</a>
+            </li>
+          ))
 
+          }
+        </ul>      
+        <hr/>
+        { artists.map((artist, index) => {
+          const pieces = [];
+          if (artist.piece1_title) {
+            pieces.push({
+              title: artist.piece1_title,
+              medium: artist.piece1_medium,
+              description: artist.piece1_description,
+              location: artist.piece1_location
+            });
+          }
+          if (artist.piece2_title) {
+            pieces.push({
+              title: artist.piece2_title,
+              medium: artist.piece2_medium,
+              description: artist.piece2_description,
+              location: artist.piece2_location
+            });
+          }
+          if (artist.piece3_title) {
+            pieces.push({
+              title: artist.piece3_title,
+              medium: artist.piece3_medium,
+              description: artist.piece3_description,
+              location: artist.piece3_location
+            });
+          }
+          return (
+            <div key={ index }>
+              <h4 id={artist.name}>{artist.name}</h4>
+              <p className="font-bold">{artist.contact}</p>
+              <p>{artist.theme}</p>
+              { pieces.map((piece, index) => {
+                return (
+                  <div key={ index } className="mt-3">
+                    <h5>{piece.title}</h5>
+                    <p>{piece.medium}</p>
+                    <p className="italic">{piece.location}</p>
+                    { piece.description && <p>{piece.description}</p>}                
+                  </div>
+                );
+              })}
+              <hr />
+            </div>
+            ); 
+        })}
+
+        <h3 id="slipper-house-team">slipper house team</h3>
+        Team here
+        <hr />
+        <h2 id="about">about slipper assembly</h2>
+        <h3>what is it?</h3>
+        <p><em>slipper assembly</em> is a home for Asian creatives and makers in Austin. We create cozy spaces for kinship and self-expression.<br />
+          Co-founders: Bryant, Kristine, Benson & Tiff
+        </p>
       </div>
   
     </main>

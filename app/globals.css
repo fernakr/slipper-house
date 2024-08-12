@@ -40,11 +40,11 @@ h1{
 }
 
 h2{
-  @apply text-3xl font-bold ;
+  @apply text-6xl font-bold mb-6 mt-7;
 }
 
 h3{
-  @apply text-2xl font-bold ;
+  @apply text-2xl font-bold mt-6;
 }
 
 h4{
@@ -57,4 +57,8 @@ hr{
 
 a{
   @apply text-blue-900 underline;
+}
+
+ul:not(.no-list){
+  @apply list-disc list-inside text-left ml-4;
 }
