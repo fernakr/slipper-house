@@ -2,6 +2,46 @@
 
 export default function Home() {
 
+  const schedule = [
+    {
+      "time": "8:00 PM",
+      "presenter": "Sandy",
+      "Content": "Event Announcements",
+      "duration": "10 min"
+    },
+    {
+      "time": "8:10 PM",
+      "presenter": "Lauren Xu",
+      "Content": "Poetry",
+      "duration": "10 min"
+    },
+    {
+      "time": "",
+      "presenter": "Aly Rosa",
+      "Content": "Singing",
+      "duration": "15 min",
+      "": "Music tracks",
+      "__1": ""
+    },
+    {
+      "time": "",
+      "presenter": "Bhumika Purohit",
+      "Content": "Prose Reading",
+      "duration": "5 min"
+    },
+    {
+      "time": "",
+      "presenter": "Tiff Yo ?",
+      "Content": "Prose Reading ?",
+      "duration": "5 min"
+    },
+    {
+      "time": "",
+      "presenter": "Norman Tran",
+      "Content": "Poetry and Group Meditation",
+      "duration": "15 min"
+    }
+  ];
   const artists =[
     {
       "name": "aly rosa",
@@ -431,6 +471,9 @@ export default function Home() {
                 <a href="#artists">artists</a>
               </li>
               <li>
+                <a href="#schedule">schedule</a>
+              </li>
+              <li>
                 <a href="#slipper-house-team">slipper house team</a>
               </li>
             </ul>
@@ -503,8 +546,12 @@ export default function Home() {
                 return (
                   <div key={ index } className="mt-3">
                     <h5 dangerouslySetInnerHTML={{__html:piece.title.replace(/\n/g, '<br/>') }}></h5>
-                    <p className="text-sm">{piece.medium}</p>
-                    <p className="italic text-sm" >{piece.location}</p>
+                    <p className="text-sm">                      
+                      {piece.medium}
+                    </p>
+                    <p className="italic text-sm" >
+                      {piece.location === 'Performance' ? <a href="#schedule">Performance</a> : piece.location}
+                    </p>
                     { piece.description && <div className="mt-1 text-sm" dangerouslySetInnerHTML={
                       {__html: '<p>' + piece.description.replace(/\n/g, '</p><p>') + '</p>'}}></div>}                
                   </div>
@@ -514,7 +561,19 @@ export default function Home() {
             </div>
             ); 
         })}
+        <h3 id="schedule">schedule</h3>
+        <p className="text-lg"><em>performances start at 8:00pm</em></p>
+        <ul className="no-list">
+          {schedule.map((event, index) => (
+            <li key={ index } className="mt-5 leading-5">
+                <strong className="block">{event.presenter}</strong>
+                {event.Content} ({event.duration})
+            </li>
+          ))
 
+          }
+        </ul>
+        <hr />
         <h3 id="slipper-house-team">slipper house team</h3>
         Team here
         <hr />
