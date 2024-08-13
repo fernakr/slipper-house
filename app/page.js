@@ -138,7 +138,7 @@ export default function Home() {
       "piece3_title": "Fly",
       "piece3_medium": "Mixed medium",
       "piece3_description": "",
-      "piece3_location": "Right wall"
+      "piece3_location": "right-wall"
     },
     {
       "name": "Bryant Peng",
@@ -189,7 +189,7 @@ export default function Home() {
       "piece3_title": "suburban nights",
       "piece3_medium": "Giclee art print",
       "piece3_description": "",
-      "piece3_location": "Right wall"
+      "piece3_location": "right-wall"
     },
     {
       "name": "Eriane Austria",
@@ -202,11 +202,11 @@ export default function Home() {
       "piece2_title": "In Between",
       "piece2_medium": "Mixed medium",
       "piece2_description": "",
-      "piece2_location": "",
+      "piece2_location": "right-wall",
       "piece3_title": "Jelly's Window Time",
       "piece3_medium": "Mixed medium",
       "piece3_description": "",
-      "piece3_location": "Right wall"
+      "piece3_location": "right-wall"
     },
     {
       "name": "Kelly Zhu",
@@ -461,7 +461,7 @@ export default function Home() {
       "piece3_title": "That Luxury Indoor Rockery",
       "piece3_medium": "Watercolor on paper",
       "piece3_description": "",
-      "piece3_location": "Right wall"
+      "piece3_location": "right-wall"
     }
   ];
   return (
