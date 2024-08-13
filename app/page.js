@@ -7,8 +7,8 @@ export default function Home() {
       "name": "aly rosa",
       "contact": "@alyadoration",
       "theme": "Our living room windows were always open in the apartment I grew up in. Even during the rainy season on Mt. Makiling, the cool breeze would just fill up space. Against the backdrop of rain, OPM would play on the radio in our kitchen, and Pilita Corrales (a.k.a Asia's Queen of Songs) was a distinguished voice any Filipino could recognize. Dahil Sa Iyo is a song of hers that I first listened to in my childhood living room when I was 10 years old. I learned this song for my Lola who passed in 2009.",
-      "piece1_title": "*I don’t have a title for this piece, just introduce me as Aly Rosa please!",
-      "piece1_medium": "Song/Performance",
+      "piece1_title": "Untitled",
+      "piece1_medium": "Song",
       "piece1_description": "",
       "piece1_location": "Performance",
       "piece2_title": "",
@@ -78,7 +78,7 @@ export default function Home() {
       "piece1_title": "The Weight of Second Chances",
       "piece1_medium": "Prose",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "Left wall",
       "piece2_title": "Community",
       "piece2_medium": "Acrylic",
       "piece2_description": "",
@@ -362,10 +362,10 @@ export default function Home() {
     },
     {
       "name": "Tiffany Vela DBA Weila Art",
-      "contact": "@weila.art",
-      "theme": "Very literally",
-      "piece1_title": "Living Room Seasons: Couches of my Life",
-      "piece1_medium": "Acrylic on canvas",
+      "contact": "@weila.art",     
+      "theme": "Read clockwise\r\nAge 0~12: Memories of childhood infected by the sickly sweetness of nostalgia. As appealing as the bakery window display that I almost forget about the stomachaches that followed.\r\nAge 15~22: An era of rumination, painful memories, exploration, substance abuse, little self-care or worth. A traumatized cocoon of myself yet to emerge.\r\nAge 28~beyond: Embracing and owning my colors, knowing what I want and acting upon it. A period of comforts, pleasure, eclecticism, and pushing the boundaries of my own potential.\r\nAge 23~27: Beginnings of emergence. Finding color in my life, both figuratively and literally in my surroundings. Discovery, getting to know the self, forgiveness, and ambition.", 
+      "piece1_title": "Living Room Seasons: Couches of my Life\r\n",
+      "piece1_medium": "Acrylic on canvas (4 framed pieces)",
       "piece1_description": "",
       "piece1_location": "Left wall",
       "piece2_title": "",
@@ -414,13 +414,16 @@ export default function Home() {
   ];
   return (
     <main className="text-center p-8 flex items-center justify-center">
-      <div className=" max-w-prose">
-        <h1>slipper assembly presents<br />slipper house</h1>
+      <div className=" max-w-prose pb-14">
+        <h1 id="top">
+          <span className="block text-base">slipper assembly presents</span>          
+          <span className="block">slipper house</span>
+        </h1>
         <hr />
-        <ul class="text-left">
+        <ul className="no-list menu">
           <li>
             <a href="#program">program</a>
-            <ul>
+            <ul className="no-list">
               <li>
                 <a href="#slipper-house">about slipper house</a>
               </li>
@@ -439,13 +442,13 @@ export default function Home() {
         <hr />
         <h2 id="program">program</h2>
         <h3 id="slipper-house">about slipper house</h3>
-        <ul class="no-list">
+        <ul className="no-list">
           <li>the goal of slipper house is to provide an <strong>accessible, inclusive, welcoming</strong> space for slipper assembly members to share their art</li>
           <li><strong>non-traditional</strong> gallery experience – a space to uplift the slipper community</li>
           </ul>
         <h3>theme</h3>  
         <strong>Living Room</strong>                    
-        <ul class="no-list text-sm">
+        <ul className="no-list text-sm">
           <li>House / Home</li>
           <li>Belonging / Community</li>
           <li>Coziness / Comfort</li>
@@ -453,7 +456,7 @@ export default function Home() {
 
         <h3 id="artists">artists</h3>
       
-        <ul class="no-list">
+        <ul className="no-list">
           {artists.map((artist, index) => (
             <li key={ index }>
               <a href={`#${artist.name} `}>{artist.name}</a>
@@ -492,15 +495,18 @@ export default function Home() {
           return (
             <div key={ index }>
               <h4 id={artist.name}>{artist.name}</h4>
-              <p className="font-bold">{artist.contact}</p>
-              <p>{artist.theme}</p>
+              <p>{artist.contact}</p>
+              
+              <div className="text-sm mt-1" dangerouslySetInnerHTML={
+                      {__html: '<p>' + artist.theme.replace(/\n/g, '</p><p class="mt-1">') + '</p>'}}></div>
               { pieces.map((piece, index) => {
                 return (
                   <div key={ index } className="mt-3">
-                    <h5>{piece.title}</h5>
-                    <p>{piece.medium}</p>
-                    <p className="italic">{piece.location}</p>
-                    { piece.description && <p>{piece.description}</p>}                
+                    <h5 dangerouslySetInnerHTML={{__html:piece.title.replace(/\n/g, '<br/>') }}></h5>
+                    <p className="text-sm">{piece.medium}</p>
+                    <p className="italic text-sm" >{piece.location}</p>
+                    { piece.description && <div className="mt-1 text-sm" dangerouslySetInnerHTML={
+                      {__html: '<p>' + piece.description.replace(/\n/g, '</p><p>') + '</p>'}}></div>}                
                   </div>
                 );
               })}
@@ -512,13 +518,15 @@ export default function Home() {
         <h3 id="slipper-house-team">slipper house team</h3>
         Team here
         <hr />
-        <h2 id="about">about slipper assembly</h2>
-        <h3>what is it?</h3>
-        <p><em>slipper assembly</em> is a home for Asian creatives and makers in Austin. We create cozy spaces for kinship and self-expression.<br />
-          Co-founders: Bryant, Kristine, Benson & Tiff
+        <h2 id="about">about <br />slipper assembly</h2>
+        {/* <h3>what is it?</h3> */}
+        <p><em>slipper assembly</em> is a home for Asian creatives and makers in Austin.<br /> We create cozy spaces for kinship and self-expression.<br />
+        <strong>Co-founders: Bryant, Tiff, Kristine, &amp; Benson</strong>
+          
         </p>
       </div>
   
+        <a href="#top" className="fixed bottom-3 right-3">Back to Top</a>
     </main>
   );
 }

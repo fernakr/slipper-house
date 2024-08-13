@@ -34,31 +34,51 @@ body {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  @apply leading-6  !important;
+
+}
 
 h1{
-  @apply text-4xl font-bold  mb-5;
+  @apply text-3xl font-bold  mb-7;
 }
 
 h2{
-  @apply text-6xl font-bold mb-6 mt-7;
+  @apply text-4xl font-bold mb-7 mt-7;
 }
 
 h3{
-  @apply text-2xl font-bold mt-6;
+  @apply text-2xl font-bold mt-6 mb-3;
 }
 
 h4{
   @apply text-xl font-bold ;
 }
 
+h5{
+  @apply text-lg font-bold ;
+}
+
 hr{
-  @apply my-4 border-t-2 ;
+  @apply my-6 border-t-2 ;
 }
 
 a{
   @apply text-blue-900 underline;
 }
 
+a:hover{
+  @apply text-blue-700;
+}
+
 ul:not(.no-list){
   @apply list-disc list-inside text-left ml-4;
+}
+
+.menu > li{
+  @apply text-lg font-bold;
+}
+
+.menu ul {
+  @apply my-1 text-sm font-normal;
 }
