@@ -60,7 +60,7 @@ h5{
 }
 
 hr{
-  @apply my-6 border-t-2 ;
+  @apply my-6 border-t border-red-200;
 }
 
 a{
