@@ -64,11 +64,11 @@ hr{
 }
 
 a{
-  @apply text-blue-900 underline;
+  @apply text-red-900 underline;
 }
 
 a:hover{
-  @apply text-blue-700;
+  @apply text-red-600 no-underline;
 }
 
 ul:not(.no-list){

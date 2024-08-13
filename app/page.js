@@ -526,7 +526,7 @@ export default function Home() {
         </p>
       </div>
   
-        <a href="#top" className="fixed bottom-3 right-3">Back to Top</a>
+        <a href="#top" className="fixed bottom-0 left-0 p-1 px-2 w-full text-right bg-stone-900 text-white">Back to Top</a>
     </main>
   );
 }
