@@ -1,4 +1,5 @@
-// import Image from "next/image";
+import Image from "next/image";
+import leftWall from "./images/left-wall.jpg";
 
 export default function Home() {
 
@@ -453,8 +454,8 @@ export default function Home() {
     }
   ];
   return (
-    <main className="text-center p-8 flex items-center justify-center">
-      <div className=" max-w-prose pb-14">
+    <main className="text-center p-8 justify-center">
+      <div className=" max-w-prose pb-14 m-auto">
         <h1 id="top">
           <span className="block text-base">slipper assembly presents</span>          
           <span className="block">slipper house</span>
@@ -577,6 +578,7 @@ export default function Home() {
         <h3 id="slipper-house-team">slipper house team</h3>
         Team here
         <hr />
+        
         <h2 id="about">about <br />slipper assembly</h2>
         {/* <h3>what is it?</h3> */}
         <p><em>slipper assembly</em> is a home for Asian creatives and makers in Austin.<br /> We create cozy spaces for kinship and self-expression.<br />
@@ -584,6 +586,7 @@ export default function Home() {
           
         </p>
       </div>
+      <div><Image src={ leftWall} alt="slipper house logo" className="max-w-prose w-full m-auto"/></div>      
   
         <a href="#top" className="fixed bottom-0 left-0 p-1 px-2 w-full text-right bg-stone-900 text-white">Back to Top</a>
     </main>
