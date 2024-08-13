@@ -4,6 +4,18 @@ import rightWall from './images/right-wall.jpg';
 
 export default function Home() {
 
+  const locations = [
+    {
+      label: "Left Wall",
+      image: leftWall,
+      id: "left-wall"
+    },
+    {
+      label: "Right Wall",
+      image: rightWall,
+      id: "right-wall"
+    }
+  ]
   const schedule = [
     {
       "time": "8:00 PM",
@@ -21,9 +33,7 @@ export default function Home() {
       "time": "",
       "presenter": "Aly Rosa",
       "Content": "Singing",
-      "duration": "15 min",
-      "": "Music tracks",
-      "__1": ""
+      "duration": "15 min"      
     },
     {
       "time": "",
@@ -33,8 +43,8 @@ export default function Home() {
     },
     {
       "time": "",
-      "presenter": "Tiff Yo ?",
-      "Content": "Prose Reading ?",
+      "presenter": "Tiff Yo",
+      "Content": "Prose Reading",
       "duration": "5 min"
     },
     {
@@ -69,7 +79,7 @@ export default function Home() {
       "piece1_title": "House;Home",
       "piece1_medium": "Oil on canvas",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "right-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -86,7 +96,7 @@ export default function Home() {
       "piece1_title": "사랑 -Love, 행운 -Luck, 생활 -Life",
       "piece1_medium": "3 painted paper hand fans",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "right-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -103,7 +113,7 @@ export default function Home() {
       "piece1_title": "Kimchi Hoodie",
       "piece1_medium": "Photography, textile",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -120,11 +130,11 @@ export default function Home() {
       "piece1_title": "The Weight of Second Chances",
       "piece1_medium": "Prose",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "Community",
       "piece2_medium": "Acrylic",
       "piece2_description": "",
-      "piece2_location": "Right wall",
+      "piece2_location": "right-wall",
       "piece3_title": "Fly",
       "piece3_medium": "Mixed medium",
       "piece3_description": "",
@@ -137,7 +147,7 @@ export default function Home() {
       "piece1_title": "RIP ASIA MARKET, LONG LIVE ASIA CAFE",
       "piece1_medium": "Framed t-shirt",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -154,7 +164,7 @@ export default function Home() {
       "piece1_title": "A Hero's Journey",
       "piece1_medium": "Acrylic paint, ink, paper, digital story",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -171,11 +181,11 @@ export default function Home() {
       "piece1_title": "dreaming about jackson street",
       "piece1_medium": "Giclee art print",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "right-wall",
       "piece2_title": "galveston on my mind",
       "piece2_medium": "Giclee art print",
       "piece2_description": "",
-      "piece2_location": "Right wall",
+      "piece2_location": "right-wall",
       "piece3_title": "suburban nights",
       "piece3_medium": "Giclee art print",
       "piece3_description": "",
@@ -188,7 +198,7 @@ export default function Home() {
       "piece1_title": "Pink Slumber Party",
       "piece1_medium": "Mixed medium",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "right-wall",
       "piece2_title": "In Between",
       "piece2_medium": "Mixed medium",
       "piece2_description": "",
@@ -205,7 +215,7 @@ export default function Home() {
       "piece1_title": "Ghost Festival Preparations 2011, Keelung, Taiwan",
       "piece1_medium": "Photography",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -222,11 +232,11 @@ export default function Home() {
       "piece1_title": "Bagoong",
       "piece1_medium": "Gouache on paper attached to foam with prose",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "Through rose-colored glasses",
       "piece2_medium": "Goauche on paper with color gel sheet",
       "piece2_description": "",
-      "piece2_location": "Right wall",
+      "piece2_location": "right-wall",
       "piece3_title": "",
       "piece3_medium": "",
       "piece3_description": "",
@@ -256,7 +266,7 @@ export default function Home() {
       "piece1_title": "the last christmas before my father died\nthe last christmas before Chuck died",
       "piece1_medium": "Mixed media (Video, poetry, original music composition)",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "right-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -273,7 +283,7 @@ export default function Home() {
       "piece1_title": "Would you know this face if it came back to you",
       "piece1_medium": "Mixed media",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "right-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -290,7 +300,7 @@ export default function Home() {
       "piece1_title": "Paper Boxes",
       "piece1_medium": "Interactive activity",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "right-wall",
       "piece2_title": "Three Sisters",
       "piece2_medium": "Colored pencils",
       "piece2_description": "",
@@ -307,11 +317,11 @@ export default function Home() {
       "piece1_title": "dear mama",
       "piece1_medium": "Prose",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "dinner with my mom",
       "piece2_medium": "Prose",
       "piece2_description": "",
-      "piece2_location": "Left wall",
+      "piece2_location": "left-wall",
       "piece3_title": "",
       "piece3_medium": "",
       "piece3_description": "",
@@ -324,7 +334,7 @@ export default function Home() {
       "piece1_title": "Doing my pennants",
       "piece1_medium": "Felt and thread",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -341,7 +351,7 @@ export default function Home() {
       "piece1_title": "5:30PM",
       "piece1_medium": "Oil on panel",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -375,7 +385,7 @@ export default function Home() {
       "piece1_title": "couch",
       "piece1_medium": "Prose",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -392,7 +402,7 @@ export default function Home() {
       "piece1_title": "Sourdough",
       "piece1_medium": "Photography",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -409,7 +419,7 @@ export default function Home() {
       "piece1_title": "Living Room Seasons: Couches of my Life\r\n",
       "piece1_medium": "Acrylic on canvas (4 framed pieces)",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -426,7 +436,7 @@ export default function Home() {
       "piece1_title": "Girl Dinner",
       "piece1_medium": "Ceramics",
       "piece1_description": "",
-      "piece1_location": "Left wall",
+      "piece1_location": "left-wall",
       "piece2_title": "",
       "piece2_medium": "",
       "piece2_description": "",
@@ -443,11 +453,11 @@ export default function Home() {
       "piece1_title": "Baby's Living Room Corner",
       "piece1_medium": "Acrylic on canvas",
       "piece1_description": "",
-      "piece1_location": "Right wall",
+      "piece1_location": "right-wall",
       "piece2_title": "Tropical Fish Tank",
       "piece2_medium": "Watercolor on paper",
       "piece2_description": "",
-      "piece2_location": "Right wall",
+      "piece2_location": "right-wall",
       "piece3_title": "That Luxury Indoor Rockery",
       "piece3_medium": "Watercolor on paper",
       "piece3_description": "",
@@ -545,6 +555,9 @@ export default function Home() {
               <div className="text-sm mt-1" dangerouslySetInnerHTML={
                       {__html: '<p>' + artist.theme.replace(/\n/g, '</p><p class="mt-1">') + '</p>'}}></div>
               { pieces.map((piece, index) => {
+
+                const location = locations.find(location => location.id === piece.location);
+                
                 return (
                   <div key={ index } className="mt-3">
                     <h5 dangerouslySetInnerHTML={{__html:piece.title.replace(/\n/g, '<br/>') }}></h5>
@@ -552,7 +565,10 @@ export default function Home() {
                       {piece.medium}
                     </p>
                     <p className="italic text-sm" >
-                      {piece.location === 'Performance' ? <a href="#schedule">Performance</a> : piece.location}
+                      {piece.location === 'Performance' ? <a href="#schedule">Performance</a> : 
+                        location ? <a href={location.image.src} >
+                          {location.label }
+                        </a> : ''}
                     </p>
                     { piece.description && <div className="mt-1 text-sm" dangerouslySetInnerHTML={
                       {__html: '<p>' + piece.description.replace(/\n/g, '</p><p>') + '</p>'}}></div>}                
@@ -579,11 +595,11 @@ export default function Home() {
         <h3 id="slipper-house-team">slipper house team</h3>
         Team here
         <hr />
-        <h3>layout</h3>
+        {/* <h3>layout</h3>
         <h4 className="mt-5 mb-1">left wall</h4>
         <div><Image src={ leftWall} alt="slipper house logo" className="max-w-prose w-full m-auto border"/></div>      
         <h4 className="mt-5 mb-1">right wall</h4>
-      <div><Image src={ rightWall} alt="slipper house logo" className="max-w-prose w-full m-auto border"/></div>
+      <div><Image src={ rightWall} alt="slipper house logo" className="max-w-prose w-full m-auto border"/></div> */}
         
         <h2 id="about">about <br />slipper assembly</h2>
         {/* <h3>what is it?</h3> */}
