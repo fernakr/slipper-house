@@ -36,7 +36,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply leading-6  !important;
+  @apply leading-8  !important;
 
 }
 
@@ -45,7 +45,7 @@ h1{
 }
 
 h2{
-  @apply text-4xl font-bold mb-7 mt-7;
+  @apply text-4xl font-bold mb-7 mt-7 
 }
 
 h3{
