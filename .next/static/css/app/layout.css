@@ -572,6 +572,9 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-6 {
+  margin-top: 1.5rem;
+}
 .block {
   display: block;
 }
@@ -583,6 +586,9 @@ video {
 }
 .max-w-prose {
   max-width: 65ch;
+}
+.grow {
+  flex-grow: 1;
 }
 .justify-center {
   justify-content: center;

@@ -856,8 +856,8 @@ export default function Home() {
         <p className="text-lg"><em>performances start at 8:00pm</em></p>
         <ul className="no-list">
           {schedule.map((event, index) => (
-            <li key={ index } className="mt-5 leading-5">
-                <strong className="block">{event.presenter}</strong>
+            <li key={ index } className="mt-6 leading-5">
+                <strong className="block mb-1">{event.presenter}</strong>
                 {event.Content} ({event.duration})
             </li>
           ))
@@ -894,6 +894,7 @@ export default function Home() {
         <strong>Co-founders: Bryant, Tiff, Kristine, &amp; Benson</strong>
           
         </p>
+        <p className="mt-3"><a href="/slipper-house/community-guidelines">Read our community guidelines</a>          </p>
       </div>
       
   
