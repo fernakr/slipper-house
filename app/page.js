@@ -794,6 +794,7 @@ export default function Home() {
           }
         </ul>      
         <hr/>
+        <p id="for-sale" className="bg-orange-50 p-4 my-8 text-sm">Pieces are marked for sale if artist is interested in selling. <br />Please use the contact information + the piece title listed to inquire about the piece.</p>
         { artists.map((artist, index) => {
           const pieces = [];
           if (artist.piece_1_title) {
@@ -857,8 +858,7 @@ export default function Home() {
               { index !== artists.length - 1 && <hr />}
             </div>
             ); 
-        })}
-        <p id="for-sale" className="bg-orange-50 p-4 mt-8 text-sm">Pieces are marked for sale if artist is interested in selling. <br />Please use the contact information + the piece title listed to inquire about the piece.</p>
+        })}        
         <hr />
         <h3 id="schedule">schedule</h3>
         <p className="text-lg"><em>performances start at 8:00pm</em></p>
