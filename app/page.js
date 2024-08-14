@@ -794,7 +794,9 @@ export default function Home() {
           }
         </ul>      
         
-        <p id="for-sale" className="bg-orange-50 p-4 my-8 text-sm">Pieces are marked for sale if artist is interested in selling. <br />Please use the contact information + the piece title listed to inquire about the piece.</p>
+        <div id="for-sale" className="bg-orange-50 p-4 my-8 text-sm">
+          <p >Pieces are marked for sale if artist is interested in selling. </p><p className="mt-2">Please use the contact information + the piece title listed to inquire about the piece.</p>
+        </div>
         { artists.map((artist, index) => {
           const pieces = [];
           if (artist.piece_1_title) {
