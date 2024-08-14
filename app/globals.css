@@ -19,6 +19,7 @@ targets devices or browsers that have a dark color scheme preference set. */
 } */
 
 body {
+  font-size: 1.2rem;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

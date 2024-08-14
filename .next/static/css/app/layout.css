@@ -548,6 +548,15 @@ video {
 .m-auto {
   margin: auto;
 }
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -556,9 +565,6 @@ video {
 }
 .mt-5 {
   margin-top: 1.25rem;
-}
-.mb-1 {
-  margin-bottom: 0.25rem;
 }
 .block {
   display: block;
@@ -602,16 +608,16 @@ video {
   text-align: right;
 }
 .text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
 }
 .text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1.3rem;
 }
 .text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+}
+.font-bold {
+  font-weight: 700;
 }
 .italic {
   font-style: italic;
@@ -622,6 +628,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 :root {
@@ -641,6 +651,7 @@ targets devices or browsers that have a dark color scheme preference set. */
 } */
 
 body {
+  font-size: 1.2rem;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -656,36 +667,31 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-bottom: 1.75rem;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 2.53rem;
   font-weight: 700;
 }
 
 h2 {
   margin-bottom: 1.75rem;
   margin-top: 1.75rem;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 2.441rem;
   font-weight: 700;
 }
 
 h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.763rem;
   font-weight: 700;
 }
 
 h4 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 h5 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -717,15 +723,13 @@ ul:not(.no-list) {
 }
 
 .menu > li {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
 .menu ul {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
   font-weight: 400;
 }

@@ -4,6 +4,10 @@ import rightWall from './images/right-wall.jpg';
 
 export default function Home() {
 
+  // when link is clicked blur the focus in a react app
+  // https://stackoverflow.com/questions/61502527/when-link-is-clicked-blur-the-focus-in-a-react-app
+
+
   const locations = [
     {
       label: "Left Wall",
@@ -464,6 +468,34 @@ export default function Home() {
       "piece3_location": "right-wall"
     }
   ];
+  const menu = [
+    {
+      "label": "program",
+      "id": "program",
+      "subMenu": [
+        {
+          "label": "about slipper house",
+          "id": "slipper-house"
+        },
+        {
+          "label": "artists",
+          "id": "artists"
+        },
+        {
+          "label": "schedule",
+          "id": "schedule"
+        },
+        {
+          "label": "slipper house team",
+          "id": "slipper-house-team"
+        }
+      ]
+    },
+    {
+      "label": "about slipper assembly",
+      "id": "about"
+    }
+  ]
   return (
     <main className="text-center p-8 justify-center">
       <div className=" max-w-prose pb-14 m-auto">
@@ -472,9 +504,24 @@ export default function Home() {
           <span className="block">slipper house</span>
         </h1>
         <hr />
-        <ul className="no-list menu">
+        <h2>menu</h2>
+        { menu.map((menuItem, index) => (
+          <ul key={ index } className="no-list">
+            <li>
+              <a className="text-lg font-bold" href={`#${menuItem.id} `}>{menuItem.label}</a>
+              <ul className="no-list mb-2">
+                {menuItem.subMenu && menuItem.subMenu.map((subMenuItem, index) => (
+                  <li key={ index }>
+                    <a href={`#${subMenuItem.id} `} >{subMenuItem.label}</a>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          </ul>
+        ))}
+        {/* <ul className="no-list menu">
           <li>
-            <a href="#program">program</a>
+            <a href="#program" >program</a>
             <ul className="no-list">
               <li>
                 <a href="#slipper-house">about slipper house</a>
@@ -493,7 +540,7 @@ export default function Home() {
           <li>
             <a href="#about">about slipper assembly</a>
           </li>
-        </ul>
+        </ul> */}
         <hr />
         <h2 id="program">program</h2>
         <h3 id="slipper-house">about slipper house</h3>
@@ -502,8 +549,8 @@ export default function Home() {
           <li><strong>non-traditional</strong> gallery experience – a space to uplift the slipper community</li>
           </ul>
         <h3>theme</h3>  
-        <strong>Living Room</strong>                    
-        <ul className="no-list text-sm">
+        <strong className="text-lg">Living Room</strong>
+        <ul className="no-list">
           <li>House / Home</li>
           <li>Belonging / Community</li>
           <li>Coziness / Comfort</li>
@@ -552,7 +599,7 @@ export default function Home() {
               <h4 id={artist.name}>{artist.name}</h4>
               <p>{artist.contact}</p>
               
-              <div className="text-sm mt-1" dangerouslySetInnerHTML={
+              <div className="text-base mt-1 mb-4" dangerouslySetInnerHTML={
                       {__html: '<p>' + artist.theme.replace(/\n/g, '</p><p class="mt-1">') + '</p>'}}></div>
               { pieces.map((piece, index) => {
 
