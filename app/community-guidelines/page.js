@@ -8,7 +8,7 @@ export default function CommunityGuidelines() {
                 <li >You like to make stuff, whether it’s for recreation or for livelihood.</li>
             </ul>
             <p >Essentially – you show up, you belong.❤️‍🔥</p>
-            <h2>Respect each other's presence, participation, and perspective.</h2>
+            <h2>Respect each other&rsquo;s presence, participation, and perspective.</h2>
             <p >⭐ Presence. Show up to support and provide care. Engagement is a sign of respect. Be mindful of distractions, like phones, during moments of vulnerability and intimacy.</p>
             <p >⭐ Participation.&nbsp;Participation can appear in many ways. Some folks shine in large groups, some folks shine in small groups. Some folks are active online, some are not. Some folks share vulnerabilities easily while others do not.</p>
             <p >⭐ Perspective. Each person lives by their truth. Each person is informed by their own unique upbringing and journey. Listen to understand, not to judge. Lead with curiosity. It is a privilege to hold space for each other.</p>
