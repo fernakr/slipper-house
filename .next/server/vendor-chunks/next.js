@@ -373,16 +373,6 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 /***/ }),
 
-/***/ "(rsc)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Cabin\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"600\",\"700\"],\"variable\":\"--cabin-font\"}],\"variableName\":\"cabin\"}":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/font/google/target.css?{"path":"app/layout.js","import":"Cabin","arguments":[{"subsets":["latin"],"weight":["400","600","700"],"variable":"--cabin-font"}],"variableName":"cabin"} ***!
-  \**************************************************************************************************************************************************************************************************************/
-/***/ ((module) => {
-
-eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'__Cabin_cea56e', '__Cabin_Fallback_cea56e'\",\"fontStyle\":\"normal\"},\n\t\"className\": \"__className_cea56e\",\n\t\"variable\": \"__variable_cea56e\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2dvb2dsZS90YXJnZXQuY3NzP3tcInBhdGhcIjpcImFwcC9sYXlvdXQuanNcIixcImltcG9ydFwiOlwiQ2FiaW5cIixcImFyZ3VtZW50c1wiOlt7XCJzdWJzZXRzXCI6W1wibGF0aW5cIl0sXCJ3ZWlnaHRcIjpbXCI0MDBcIixcIjYwMFwiLFwiNzAwXCJdLFwidmFyaWFibGVcIjpcIi0tY2FiaW4tZm9udFwifV0sXCJ2YXJpYWJsZU5hbWVcIjpcImNhYmluXCJ9IiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQSxXQUFXLGdGQUFnRjtBQUMzRjtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zbGlwcGVyLWhvdXNlLy4vbm9kZV9tb2R1bGVzL25leHQvZm9udC9nb29nbGUvdGFyZ2V0LmNzcz9jZGVmIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcInN0eWxlXCI6IHtcImZvbnRGYW1pbHlcIjpcIidfX0NhYmluX2NlYTU2ZScsICdfX0NhYmluX0ZhbGxiYWNrX2NlYTU2ZSdcIixcImZvbnRTdHlsZVwiOlwibm9ybWFsXCJ9LFxuXHRcImNsYXNzTmFtZVwiOiBcIl9fY2xhc3NOYW1lX2NlYTU2ZVwiLFxuXHRcInZhcmlhYmxlXCI6IFwiX192YXJpYWJsZV9jZWE1NmVcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Cabin\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"600\",\"700\"],\"variable\":\"--cabin-font\"}],\"variableName\":\"cabin\"}\n");
-
-/***/ }),
-
 /***/ "(rsc)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inclusive_Sans\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"],\"variable\":\"--inclusive-font\"}],\"variableName\":\"inclusive\"}":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/font/google/target.css?{"path":"app/layout.js","import":"Inclusive_Sans","arguments":[{"subsets":["latin"],"weight":["400"],"variable":"--inclusive-font"}],"variableName":"inclusive"} ***!

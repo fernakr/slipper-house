@@ -211,8 +211,7 @@ export default function Home() {
   
   ]
   const artists =
-  [
-
+  [    
     {
       "name": "aly rosa",
       "contact": "@alyadoration",
@@ -221,17 +220,17 @@ export default function Home() {
       "piece_1_medium": "Song/Performance",
       "piece_1_description": "",
       "piece_1_location": "Performance",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Amy Xin",
@@ -241,17 +240,17 @@ export default function Home() {
       "piece_1_medium": "Oil on canvas",
       "piece_1_description": "",
       "piece_1_location": "right-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Ariel Sagastume",
@@ -261,17 +260,17 @@ export default function Home() {
       "piece_1_medium": "3 painted paper hand fans",
       "piece_1_description": "사랑 ~Love\nInspired by the 雙喜 Double Happiness and Chinese red knot hangings I have carried with me vast distance and always put in our living room, the theme of Love as part of home life is shown with my kissing carp symbolic of connection. Carp have been a longtime favorite of mine as well as showing the Yin and Yang energies I believe is essential to maintaining harmony in a loving home. The living room is a wonderful space to coexist with your loved ones and share fond memories like laughing and slurping on noodles together. Featured are 盤長結 Pan Chang Knot tassels symbolizing there is no beginning or end, simply the ever flowing energy of love and life.\n\n행운 ~Luck\nSurfing on the waves of time and energy, the two gold ingot boats ride out the ebbs and flows. 福 Luck is on their side as the sun points them in the right direction. Life is all about charting your course and staying true to your inner strength. Our journey begins in our childhood home and continues in new ways to each place we live. Feng Shui was a staple of my childhood home life and I’m proud to say I keep these traditions alive through my own practice. Having good luck in a home brings me warm and cozy feels. From red envelopes and hanging red knots to gold coins for good fortune, lunar new year celebrations were all part of the living room festivities and invite so much joy into our home.\n\n생활 ~Life\nDrawing from my own 부채 Buchae, Korean Traditional Fans used in martial arts and fan dance, I harmonize the two flavors of my childhood, traditional Korean and Chinese fan elements to show how life is a beautiful dance of culture and harmony. Buchae are well known for their beautiful peony flower designs that radiate royalty and serenity. Kept in our home dojang, it was always a love of mine to work with the fans my parents passed down to me and learn various techniques and movements. Featured is my 노리개 tassel worn on my hanbok with double crane for long, happy marriage and longevity. Both Chinese fan dance and 부채춤 Buchaechum, Korean fan dance, continues to bring me so much joy during festivals and celebrations with their graceful yet powerful energies. \n\nThank you for taking this journey of Love, Luck, and Life with me! May you have many blessings along your journey! \n감사합니다\n\n谢谢",
       "piece_1_location": "right-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Ben Aqua",
@@ -281,17 +280,17 @@ export default function Home() {
       "piece_1_medium": "Photography, textile",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Bhumika Purohit",
@@ -301,17 +300,17 @@ export default function Home() {
       "piece_1_medium": "Prose",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "Community",
       "piece_2_medium": "Acrylic",
       "piece_2_description": "",
       "piece_2_location": "right-wall",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "Fly",
       "piece_3_medium": "Mixed medium",
       "piece_3_description": "",
       "piece_3_location": "right-wall",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Bryant Peng",
@@ -319,19 +318,19 @@ export default function Home() {
       "theme": "a living room is a place of comfort. that's how i feel about the local Chinese grocery store my mom used to take me to - before the chains drove them out of business - as well as their sister restaurant, which thankfully survived the pandemic and is thriving to this day. as an Austin native, i wanted to commemorate these places that were a large part of *my* home growing up",
       "piece_1_title": "RIP ASIA MARKET, LONG LIVE ASIA CAFE",
       "piece_1_medium": "Framed t-shirt",
-      "piece_1_description": "",
+      "piece_1_description": "When my parents first moved to Austin in the 90s, it was rough trying to find Asian groceries. Then Asia Market opened, and it instantly became a staple in the Asian community as well as my mom's weekly routine.\nAt one point they opened a cafeteria in the back, and it was so popular that it turned into a restaurant next door called Asia Cafe. I had countless meals there, from family dinners on the weekend to special occasions in the private dining rooms. It's still open 7 days a week.\nAsia Market wasn't so lucky. They couldn't keep up after H-Mart and 99 Ranch came to town in 2018, and when I dropped by in 2022 I saw they were gone for good.\nI designed this commemorative tee as a memento to remember Asia Market. The sticker is a quote from asiamarketeatery.com, their original website.",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": true,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Cathy Le",
@@ -341,17 +340,17 @@ export default function Home() {
       "piece_1_medium": "Acrylic paint, ink, paper, digital story",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Cindy Nguyen",
@@ -361,17 +360,17 @@ export default function Home() {
       "piece_1_medium": "Giclee art print",
       "piece_1_description": "Sometimes I like to remember the feeling of being in the places I used to call home. This piece puts together real and imagined objects that have moved with me from place, blurring together the memories of each home together.",
       "piece_1_location": "right-wall",
-      "piece_1_for_sale": "TRUE",
+      "piece_1_for_sale": true,
       "piece_2_title": "galveston on my mind",
       "piece_2_medium": "Giclee art print",
       "piece_2_description": "I love the feeling of when I see something familiar in a new light. This piece includes elements of my childhood home: the yellow curtains, the window guard pattern, the way that sunsets and sunrises filter through. These elements are nostalgic yet become more distant and strange to me over time.",
       "piece_2_location": "right-wall",
-      "piece_2_for_sale": "TRUE",
+      "piece_2_for_sale": true,
       "piece_3_title": "suburban nights",
       "piece_3_medium": "Giclee art print",
       "piece_3_description": "When I think about what makes a cozy home, I think of my dog Rem, the view of the moon, and a warm lamp.",
       "piece_3_location": "right-wall",
-      "piece_3_for_sale": "TRUE"
+      "piece_3_for_sale": true
     },
     {
       "name": "Eriane Austria",
@@ -381,17 +380,17 @@ export default function Home() {
       "piece_1_medium": "Mixed medium",
       "piece_1_description": "",
       "piece_1_location": "right-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "In Between",
       "piece_2_medium": "Mixed medium",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "Jelly's Window Time",
       "piece_3_medium": "Mixed medium",
       "piece_3_description": "",
       "piece_3_location": "right-wall",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Kelly Zhu",
@@ -401,17 +400,17 @@ export default function Home() {
       "piece_1_medium": "Photography",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Kristine Fernandez",
@@ -421,17 +420,17 @@ export default function Home() {
       "piece_1_medium": "Gouache on paper attached to foam with prose",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "Through rose-colored glasses",
       "piece_2_medium": "Goauche on paper with color gel sheet",
       "piece_2_description": "",
       "piece_2_location": "right-wall",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Lauren Ying Xu",
@@ -441,17 +440,17 @@ export default function Home() {
       "piece_1_medium": "Poetry",
       "piece_1_description": "",
       "piece_1_location": "Performance",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Marlon Hedrick",
@@ -461,17 +460,17 @@ export default function Home() {
       "piece_1_medium": "Mixed media (Video, poetry, original music composition)",
       "piece_1_description": "",
       "piece_1_location": "right-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Mavyn Vu",
@@ -481,17 +480,17 @@ export default function Home() {
       "piece_1_medium": "Mixed media",
       "piece_1_description": "",
       "piece_1_location": "right-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Meah Lin",
@@ -501,17 +500,17 @@ export default function Home() {
       "piece_1_medium": "Interactive activity",
       "piece_1_description": "",
       "piece_1_location": "right-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "Three Sisters",
       "piece_2_medium": "Colored pencils",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Melissa Nguyen",
@@ -521,17 +520,17 @@ export default function Home() {
       "piece_1_medium": "Prose",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "dinner with my mom",
       "piece_2_medium": "Prose",
       "piece_2_description": "",
       "piece_2_location": "left-wall",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Misa Nazareno",
@@ -541,17 +540,17 @@ export default function Home() {
       "piece_1_medium": "Felt and thread",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Nathan Dinh",
@@ -561,17 +560,17 @@ export default function Home() {
       "piece_1_medium": "Oil on panel",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Norman Tran",
@@ -581,17 +580,17 @@ export default function Home() {
       "piece_1_medium": "Poetry",
       "piece_1_description": "",
       "piece_1_location": "Performance",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "sandy lam",
@@ -601,17 +600,17 @@ export default function Home() {
       "piece_1_medium": "Prose",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Thomas Nguyễn",
@@ -621,17 +620,17 @@ export default function Home() {
       "piece_1_medium": "Photography",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Tiffany Vela DBA Weila Art",
@@ -641,17 +640,17 @@ export default function Home() {
       "piece_1_medium": "Acrylic on canvas",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Tâm Lê",
@@ -661,17 +660,17 @@ export default function Home() {
       "piece_1_medium": "Ceramics",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": "FALSE",
+      "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
       "piece_2_location": "",
-      "piece_2_for_sale": "FALSE",
+      "piece_2_for_sale": false,
       "piece_3_title": "",
       "piece_3_medium": "",
       "piece_3_description": "",
       "piece_3_location": "",
-      "piece_3_for_sale": "FALSE"
+      "piece_3_for_sale": false
     },
     {
       "name": "Zoee Xiao",
@@ -681,19 +680,20 @@ export default function Home() {
       "piece_1_medium": "Acrylic on canvas",
       "piece_1_description": "",
       "piece_1_location": "right-wall",
-      "piece_1_for_sale": "TRUE",
+      "piece_1_for_sale": true,
       "piece_2_title": "Tropical Fish Tank",
       "piece_2_medium": "Watercolor on paper",
       "piece_2_description": "",
       "piece_2_location": "right-wall",
-      "piece_2_for_sale": "TRUE",
+      "piece_2_for_sale": true,
       "piece_3_title": "That Luxury Indoor Rockery",
       "piece_3_medium": "Watercolor on paper",
       "piece_3_description": "",
       "piece_3_location": "right-wall",
-      "piece_3_for_sale": "TRUE"
+      "piece_3_for_sale": true
     }
   ]
+
   const menu = [
     {
       "label": "program",
@@ -801,7 +801,8 @@ export default function Home() {
               title: artist.piece_1_title,
               medium: artist.piece_1_medium,
               description: artist.piece_1_description,
-              location: artist.piece_1_location
+              location: artist.piece_1_location,
+              for_sale: artist.piece_1_for_sale
             });
           }
           if (artist.piece_2_title) {
@@ -809,7 +810,8 @@ export default function Home() {
               title: artist.piece_2_title,
               medium: artist.piece_2_medium,
               description: artist.piece_2_description,
-              location: artist.piece_2_location
+              location: artist.piece_2_location,
+              for_sale: artist.piece_2_for_sale
             });
           }
           if (artist.piece_3_title) {
@@ -817,7 +819,9 @@ export default function Home() {
               title: artist.piece_3_title,
               medium: artist.piece_3_medium,
               description: artist.piece_3_description,
-              location: artist.piece_3_location
+              location: artist.piece_3_location,
+              for_sale: artist.piece_3_for_sale
+
             });
           }
           return (
@@ -842,7 +846,9 @@ export default function Home() {
                         location ? <a href={location.image.src} >
                           {location.label }
                         </a> : ''}
+                        
                     </p>
+                    { piece.for_sale && <p className="font-semibold text-sm">This piece is for sale. Contact the artist for more information.</p>}
                     { piece.description && <div className="mt-1 text-sm" dangerouslySetInnerHTML={
                       {__html: '<p>' + piece.description.replace(/\n/g, '</p><p>') + '</p>'}}></div>}                
                   </div>
