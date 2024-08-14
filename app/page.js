@@ -846,18 +846,20 @@ export default function Home() {
                         location ? <a href={location.image.src} >
                           {location.label }
                         </a> : ''}
-                        
+                        { piece.for_sale && <span className="color-gray-100 text-sm"> / <a href="#for-sale">For sale</a></span>}    
                     </p>
-                    { piece.for_sale && <p className="font-semibold text-sm">This piece is for sale. Contact the artist for more information.</p>}
+                    
                     { piece.description && <div className="mt-1 text-sm" dangerouslySetInnerHTML={
                       {__html: '<p>' + piece.description.replace(/\n/g, '</p><p>') + '</p>'}}></div>}                
                   </div>
                 );
               })}
-              <hr />
+              { index !== artists.length - 1 && <hr />}
             </div>
             ); 
         })}
+        <p id="for-sale" className="bg-orange-50 p-4 mt-8 text-sm">Pieces are marked for sale if artist is interested in selling. <br />Please use the contact information + the piece title listed to inquire about the piece.</p>
+        <hr />
         <h3 id="schedule">schedule</h3>
         <p className="text-lg"><em>performances start at 8:00pm</em></p>
         <ul className="no-list">
