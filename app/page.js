@@ -772,7 +772,7 @@ export default function Home() {
         <h3 id="slipper-house">about slipper house</h3>
         <ul className="no-list">
           <li>the goal of slipper house is to provide an <strong>accessible, inclusive, welcoming</strong> space for slipper assembly members to share their art</li>
-          <li><strong>non-traditional</strong> gallery experience – a space to uplift the slipper community</li>
+          <li className="mt-2"><strong>non-traditional</strong> gallery experience – a space to uplift the slipper community</li>
           </ul>
         <h3>theme</h3>  
         <strong className="text-lg">Living Room</strong>
@@ -793,7 +793,7 @@ export default function Home() {
 
           }
         </ul>      
-        <hr/>
+        
         <p id="for-sale" className="bg-orange-50 p-4 my-8 text-sm">Pieces are marked for sale if artist is interested in selling. <br />Please use the contact information + the piece title listed to inquire about the piece.</p>
         { artists.map((artist, index) => {
           const pieces = [];
