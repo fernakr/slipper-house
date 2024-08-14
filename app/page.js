@@ -723,7 +723,7 @@ export default function Home() {
     }
   ]
   return (
-    <main className="text-center p-8 justify-center">
+    <main className="text-center p-8 justify-center home">
       <div className=" max-w-prose pb-14 m-auto">
         <h1 id="top">
           <span className="block text-base">slipper assembly presents</span>          
@@ -888,7 +888,7 @@ export default function Home() {
         <h4 className="mt-5 mb-1">right wall</h4>
       <div><Image src={ rightWall} alt="slipper house logo" className="max-w-prose w-full m-auto border"/></div> */}
         
-        <h2 id="about">about <br />slipper assembly</h2>
+        <h2 id="about">about slipper assembly</h2>
         {/* <h3>what is it?</h3> */}
         <p><em>slipper assembly</em> is a home for Asian creatives and makers in Austin.<br /> We create cozy spaces for kinship and self-expression.<br />
         <strong>Co-founders: Bryant, Tiff, Kristine, &amp; Benson</strong>

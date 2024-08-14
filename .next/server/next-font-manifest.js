@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/kfernandez/Sites/slipper-house/app/layout\":[\"static/media/e8d2af9ac91a2b1e-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/kfernandez/Sites/slipper-house/app/layout\":[\"static/media/607371c526bc4df1-s.p.woff2\",\"static/media/6ec588d8790c1f60-s.p.woff2\",\"static/media/885f624c3dc18cbe-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

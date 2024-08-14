@@ -37,19 +37,30 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   @apply leading-8  !important;
+  font-family: var(--inclusive-font);
 
 }
 
-h1{
+h1{  
   @apply text-3xl font-bold  mb-7;
+  font-family: var(--jua-font);
 }
 
 h2{
-  @apply text-4xl font-bold mb-7 mt-7 
+  @apply text-2xl font-bold mb-7 mt-7;
+  @apply leading-10 !important;
 }
 
 h3{
-  @apply text-2xl font-bold mt-6 mb-3;
+  @apply text-3xl font-bold mt-6 mb-3;
+}
+
+.home h2{
+  @apply text-3xl;
+}
+
+.home h3{
+  @apply text-2xl;
 }
 
 h4{
