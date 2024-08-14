@@ -5,7 +5,7 @@ import "./globals.css";
 
 const inclusive = Inclusive_Sans({ subsets: ["latin"], weight: ["400"],   variable: "--inclusive-font",});
 const jua = Jua({ subsets: ["latin"], weight: ["400"],  variable: "--jua-font", });
-const cabin = Cabin({ subsets: ["latin"], weight: ["400"], variable: "--cabin-font"});
+const cabin = Cabin({ subsets: ["latin"], weight: ["400","600","700"], variable: "--cabin-font"});
 
 export const metadata = {
   title: "slipper house program",

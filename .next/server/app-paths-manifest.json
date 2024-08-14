@@ -1,4 +1,4 @@
 {
-  "/community-guidelines/page": "app/community-guidelines/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/community-guidelines/page": "app/community-guidelines/page.js"
 }
