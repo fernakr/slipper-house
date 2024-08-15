@@ -641,7 +641,7 @@ export default function Home() {
       "piece_1_title": "tbd",
       "piece_1_medium": "Creative nonfiction essay",
       "piece_1_description": "",
-      "piece_1_location": "",
+      "piece_1_location": "Performance",
       "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
