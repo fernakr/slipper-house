@@ -130,7 +130,7 @@ export default function Home() {
           "Role": ""
         },
         {
-          "Name": "Ariel S",
+          "Name": "Ariel Sagastume",
           "Role": ""
         }        
       ]
@@ -184,7 +184,7 @@ export default function Home() {
           "Role": ""
         },
         {
-          "Name": "Melysia C.",
+          "Name": "Melysia C",
           "Role": ""
         },
         {
@@ -907,6 +907,7 @@ export default function Home() {
             ))}
           </div>
         ))}
+        
         <hr />
         {/* <h3>layout</h3>
         <h4 className="mt-5 mb-1">left wall</h4>
@@ -921,6 +922,17 @@ export default function Home() {
           
         </p>
         <p className="mt-3"><a href="/slipper-house/community-guidelines">Read our community guidelines</a>          </p>
+        <hr />
+          <h3>support slipper</h3>
+          <p>slipper house is open to the public and free to attend, but we’d appreciate any donations to help recoup event costs!</p>
+          
+          <p className="mt-3">
+            🌱 Suggested Donation
+              $5-20<br />
+              Venmo: Bryant @akabrza <a href="https://venmo.com/u/akabrza" target="_blank">https://venmo.com/u/akabrza</a>
+          </p>
+          <p className="text-xs mt-3">Bryant is a co-founder of slipper assembly, and donations to his Venmo will go towards our event expenses: decor, flyers, all the little things that went into creating this special evening!</p>          
+
       </div>
       
   
