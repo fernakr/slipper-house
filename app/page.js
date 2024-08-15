@@ -2,6 +2,9 @@ import Image from "next/image";
 import leftWall from "./images/left-wall.jpg";
 import rightWall from './images/right-wall.jpg';
 
+import logo from './images/logo.png';
+import header from './images/header.png';
+
 export default function Home() {
 
   // when link is clicked blur the focus in a react app
@@ -725,8 +728,8 @@ export default function Home() {
     <main className="text-center p-8 justify-center home">
       <div className=" max-w-prose pb-14 m-auto">
         <h1 id="top">
-          <span className="block text-base">slipper assembly presents</span>          
-          <span className="block">slipper house</span>
+          <Image src={header} alt="slipper house assembly" width="300" className="m-auto" />
+          <Image src={logo} alt="slipper house logo" width="130" className="-mt-4 m-auto"  />
         </h1>
         <hr />
         <h2>menu</h2>
