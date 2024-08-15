@@ -546,6 +546,9 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
+.-mt-2 {
+  margin-top: -0.5rem;
+}
 .block {
   display: block;
 }
@@ -606,11 +609,17 @@ video {
 .text-sm {
   font-size: 1rem;
 }
+.text-xs {
+  font-size: 0.75rem;
+}
 .font-bold {
   font-weight: 700;
 }
 .font-semibold {
   font-weight: 600;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 .italic {
   font-style: italic;
@@ -618,9 +627,19 @@ video {
 .leading-5 {
   line-height: 1.25rem;
 }
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-stone-500 {
+  --tw-text-opacity: 1;
+  color: rgb(120 113 108 / var(--tw-text-opacity));
 }
 .blur {
   --tw-blur: blur(8px);

@@ -22,12 +22,15 @@ export default function RootLayout({ children }) {
       <body className={`${inclusive.variable} ${jua.variable}`}>
         <div className="p-8 justify-center">
           <header className=" max-w-prose m-auto text-center ">
+            <span className="font-bold uppercase tracking-widest text-stone-500 jua text-xs mb-2 -mt-2 block">August 16, 2024</span>
             <h1 id="top">
+
               <a href="/slipper-house">
                 <Image src={header} alt="slipper house assembly" width="300" className="m-auto" />
                 <Image src={logo} alt="slipper house logo" width="130" className="-mt-4 m-auto"  />
               </a>
             </h1>
+            
             <hr />
           </header>
           <main className="pb-14">
