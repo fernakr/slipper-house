@@ -212,7 +212,6 @@ export default function Home() {
   ]
   const artists =
   [
-    
     {
       "name": "aly rosa",
       "contact": "@alyadoration",
@@ -385,7 +384,7 @@ export default function Home() {
       "piece_2_title": "In Between",
       "piece_2_medium": "Mixed medium",
       "piece_2_description": "",
-      "piece_2_location": "",
+      "piece_2_location": "right-wall",
       "piece_2_for_sale": "FALSE",
       "piece_3_title": "Jelly's Window Time",
       "piece_3_medium": "Mixed medium",
@@ -505,7 +504,7 @@ export default function Home() {
       "piece_2_title": "Three Sisters",
       "piece_2_medium": "Colored pencils",
       "piece_2_description": "",
-      "piece_2_location": "",
+      "piece_2_location": "right-wall",
       "piece_2_for_sale": "FALSE",
       "piece_3_title": "",
       "piece_3_medium": "",
