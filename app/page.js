@@ -213,7 +213,7 @@ export default function Home() {
   ]
   const artists =
   [
-
+    
     {
       "name": "aly rosa",
       "contact": "@alyadoration",
@@ -622,6 +622,26 @@ export default function Home() {
       "piece_1_medium": "Photography",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
+      "piece_1_for_sale": false,
+      "piece_2_title": "",
+      "piece_2_medium": "",
+      "piece_2_description": "",
+      "piece_2_location": "",
+      "piece_2_for_sale": false,
+      "piece_3_title": "",
+      "piece_3_medium": "",
+      "piece_3_description": "",
+      "piece_3_location": "",
+      "piece_3_for_sale": false
+    },
+    {
+      "name": "Tiff Yo",
+      "contact": "",
+      "theme": "The living room is my sister. Kakak perempuan saya, my older sister. She’s the person I’ve thought about for as long as I remember; we separated as kids and reunited five years later. I dreamed of how she’d braid my hair, teach me to draw horses from Spirit. I wanted sisterhood like the movies — friendship bracelets, sleepovers, closeness. Sisterhood was different. Lean Cuisine for lunch, summer days in last night’s PJs, America’s Next Top Model reruns. Two sisters on a living room couch.",
+      "piece_1_title": "tbd",
+      "piece_1_medium": "Creative nonfiction essay",
+      "piece_1_description": "",
+      "piece_1_location": "",
       "piece_1_for_sale": false,
       "piece_2_title": "",
       "piece_2_medium": "",
