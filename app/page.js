@@ -2,8 +2,6 @@ import Image from "next/image";
 import leftWall from "./images/left-wall.jpg";
 import rightWall from './images/right-wall.jpg';
 
-import logo from './images/logo.png';
-import header from './images/header.png';
 
 export default function Home() {
 
@@ -215,6 +213,7 @@ export default function Home() {
   ]
   const artists =
   [
+   
     {
       "name": "aly rosa",
       "contact": "@alyadoration",
@@ -541,9 +540,9 @@ export default function Home() {
       "theme": "I interpreted as being back home the Philippines, its warmth and the many things that represent it in terms of food, nature and culture.",
       "piece_1_title": "Doing my pennants",
       "piece_1_medium": "Felt and thread",
-      "piece_1_description": "",
+      "piece_1_description": "This piece is an homage to all the things that make Manila Manila to the artist. Each symbol was hand cut, sewn and glued (the artist got tired) onto the pennant. The symbols range from iconic cultural symbols like the balikbayan box to questionable street food like isaw (grilled chicken or pork intestine). The two strips of felt on the left hand side are blue and red to symbolize the Filipino flag's colors when the country is not at war.",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": false,
+      "piece_1_for_sale": true,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
@@ -725,13 +724,8 @@ export default function Home() {
     }
   ]
   return (
-    <main className="text-center p-8 justify-center home">
-      <div className=" max-w-prose pb-14 m-auto">
-        <h1 id="top">
-          <Image src={header} alt="slipper house assembly" width="300" className="m-auto" />
-          <Image src={logo} alt="slipper house logo" width="130" className="-mt-4 m-auto"  />
-        </h1>
-        <hr />
+    
+      <div className=" max-w-prose m-auto text-center home">        
         <h2>menu</h2>
         { menu.map((menuItem, index) => (
           <ul key={ index } className="no-list">
@@ -910,7 +904,6 @@ export default function Home() {
       </div>
       
   
-        <a href="#top" className="fixed bottom-0 left-0 p-1 px-2 w-full text-right bg-stone-900 text-white">Back to Top</a>
-    </main>
+        
   );
 }

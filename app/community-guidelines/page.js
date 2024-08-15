@@ -1,6 +1,6 @@
 export default function CommunityGuidelines() {
     return (
-        <div className="p-8 max-w-prose m-auto">
+        <div className="max-w-prose m-auto">            
             <h2>👩‍🎨 Who is Slipper Assembly for?</h2>
             <p>Slipper Assembly is a home for Asian creatives and makers. What does that mean?</p>
             <ul >
