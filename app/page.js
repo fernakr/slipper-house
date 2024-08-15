@@ -24,7 +24,7 @@ export default function Home() {
   const schedule = [
     {
       "time": "8:00 PM",
-      "presenter": "Sandy",
+      "presenter": "Sandy, Bryant, Tiff, and Kristine",
       "Content": "Event Announcements",
       "duration": "10 min"
     },
@@ -884,7 +884,7 @@ export default function Home() {
           {schedule.map((event, index) => (
             <li key={ index } className="mt-6 leading-5">
                 <strong className="block mb-1">{event.presenter}</strong>
-                {event.Content} ({event.duration})
+                {event.Content} 
             </li>
           ))
 
