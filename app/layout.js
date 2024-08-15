@@ -1,6 +1,7 @@
 import { Jua, Inclusive_Sans, Cabin } from "next/font/google";
 import logo from './images/logo.png';
 import header from './images/header.png';
+import details from './images/details.png';
 
 import Image from "next/image";
 // import google fonts
@@ -22,12 +23,13 @@ export default function RootLayout({ children }) {
       <body className={`${inclusive.variable} ${jua.variable}`}>
         <div className="p-8 justify-center">
           <header className=" max-w-prose m-auto text-center ">
-            <span className="font-bold uppercase tracking-widest text-stone-500 jua text-xs mb-2 -mt-2 block">August 16, 2024</span>
+            {/* <span className="font-bold uppercase tracking-widest text-stone-500 jua text-xs mb-2 -mt-2 block">August 16, 2024</span> */}
             <h1 id="top">
 
               <a href="/slipper-house">
-                <Image src={header} alt="slipper house assembly" width="300" className="m-auto" />
-                <Image src={logo} alt="slipper house logo" width="130" className="-mt-4 m-auto"  />
+                <Image src={header} alt="slipper house assembly" width="400" className="m-auto" />
+                <Image src={logo} alt="slipper house logo" width="180" className="-mt-7 m-auto"  />
+                <Image src={details} alt="friday august 16th / 7-10pm gia dinh gallery / 9909 fm 969" width="300" className="m-auto mt-7" />
               </a>
             </h1>
             
