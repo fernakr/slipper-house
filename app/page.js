@@ -11,12 +11,12 @@ export default function Home() {
 
   const locations = [
     {
-      label: "Left Wall",
+      label: "Left wall",
       image: leftWall,
       id: "left-wall"
     },
     {
-      label: "Right Wall",
+      label: "Right wall",
       image: rightWall,
       id: "right-wall"
     }
@@ -213,7 +213,7 @@ export default function Home() {
   ]
   const artists =
   [
-   
+
     {
       "name": "aly rosa",
       "contact": "@alyadoration",
@@ -282,7 +282,7 @@ export default function Home() {
       "piece_1_medium": "Photography, sublimation print on textile",
       "piece_1_description": "",
       "piece_1_location": "left-wall",
-      "piece_1_for_sale": false,
+      "piece_1_for_sale": true,
       "piece_2_title": "",
       "piece_2_medium": "",
       "piece_2_description": "",
@@ -458,7 +458,7 @@ export default function Home() {
       "name": "Marlon Hedrick",
       "contact": "",
       "theme": "The living room is a sacred space in that, in its context, each person, individually and collectively, defines themselves continuously, in a singular manner and in relation to one another, through the lens of a very simple yet grave question—what does it mean to be important to somebody?",
-      "piece_1_title": "the last christmas before my father died\nthe last christmas before Chuck died",
+      "piece_1_title": "the last christmas at 404 before my father died\nthe last christmas at 404 before Chuck died",
       "piece_1_medium": "Video, poetry, original music composition",
       "piece_1_description": "",
       "piece_1_location": "right-wall",
@@ -498,8 +498,8 @@ export default function Home() {
       "name": "Meah Lin",
       "contact": "meahlindesign.com",
       "theme": "",
-      "piece_1_title": "Paper Boxes",
-      "piece_1_medium": "Interactive activity",
+      "piece_1_title": "",
+      "piece_1_medium": "",
       "piece_1_description": "",
       "piece_1_location": "right-wall",
       "piece_1_for_sale": false,
