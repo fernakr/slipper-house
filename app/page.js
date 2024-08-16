@@ -740,7 +740,17 @@ export default function Home() {
     },
     {
       "label": "about slipper assembly",
-      "id": "about"
+      "id": "about",
+      "subMenu": [
+        {
+          "label": "community/safety guidelines",
+          "url": "/slipper-house/community-guidelines"
+        },
+        {
+          "label": "support",
+          "id": "support"
+        }
+      ]
     }
   ]
   return (
@@ -754,7 +764,7 @@ export default function Home() {
               <ul className="no-list mb-2">
                 {menuItem.subMenu && menuItem.subMenu.map((subMenuItem, index) => (
                   <li key={ index }>
-                    <a href={`#${subMenuItem.id} `} >{subMenuItem.label}</a>
+                    <a href={subMenuItem.url ? subMenuItem.url : `#${subMenuItem.id} `} >{subMenuItem.label}</a>
                   </li>
                 ))}
               </ul>
@@ -921,9 +931,9 @@ export default function Home() {
         <strong>Co-founders: Bryant, Tiff, Kristine, &amp; Benson</strong>
           
         </p>
-        <p className="mt-3"><a href="/slipper-house/community-guidelines">Read our community guidelines</a>          </p>
+        <p className="mt-3"><a href="/slipper-house/community-guidelines">Read our community/safety guidelines</a>          </p>
         <hr />
-          <h3>support slipper</h3>
+          <h3 id="support">support slipper</h3>
           <p>slipper house is open to the public and free to attend, but we’d appreciate any donations to help recoup event costs!</p>
           
           <p className="mt-3">
